@@ -1,0 +1,31 @@
+#bg{
+	background: url(font/bg.jpg);
+}
+
+.fir{
+	font-family: Microsoft Yahei;
+	font-size: 30px;
+	color: #f0ffff;
+	text-align: center;
+}
+
+.small1{
+	width: 240px;
+	height: 320px;
+}
+
+.small2{
+	width: 320px;
+	height: 180px;
+}
+
+#tu12{
+	float: right;
+	position: relative;
+	top:-520px;
+}
+
+#tu11{
+	position: relative;
+	top:-520px;
+}
