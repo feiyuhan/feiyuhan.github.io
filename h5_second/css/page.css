@@ -1,0 +1,45 @@
+html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section1 {
+        background: url(../pic/bg-1.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        width: 100%;
+    }
+    #break_dawn{
+        float: right;
+        margin-right: 10%;
+    }
+    #door{
+        max-width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        clear: both;
+    }
+    #news_center{
+        float: right;
+        margin-right: 5%;
+    }
+
+#first_long_word{
+    height: 900px;
+}
+
+#second_long_word{
+    height: 900px;
+}
