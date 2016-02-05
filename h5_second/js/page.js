@@ -5,7 +5,7 @@ var swiper1 = new Swiper('.swiper-container-horizontal', {
     });
 var clientHeight = document.body.clientHeight;
 var clientwidth = document.body.clientWidth;
-var clientHeight_gai = clientHeight + 20;
+//var clientHeight_gai = clientHeight + 20;
 document.getElementById("page_word").style.height=clientHeight+"px";
 document.getElementById("page_word").style.backgroundSize=clientHeight+"px";
 var swiper2 = new Swiper('.section2', {
@@ -60,7 +60,7 @@ var swiper8 = new Swiper('.section9',{
     autoplay:3000,
     loop: true,
 });
-document.getElementById('zhuangtai').style.height=clientHeight+'px';
+document.getElementById('zhuangtai_div').style.height=clientHeight+'px';
 var swiper9 = new Swiper('.section10', {
         direction: 'vertical',
         slidesPerView: 'auto',

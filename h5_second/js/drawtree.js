@@ -1,5 +1,7 @@
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext("2d");
+var clientHeight = document.body.clientHeight;
+var clientwidth = document.body.clientWidth;
 var drawTree = function(ctx, startX, startY, length, angle, depth, branchWidth) {
     var rand = Math.random,
         newLength, newAngle, newDepth, maxBranch = 3,
@@ -29,4 +31,4 @@ var drawTree = function(ctx, startX, startY, length, angle, depth, branchWidth) 
         drawTree(ctx, endX, endY, newLength, newAngle, newDepth, branchWidth);
     }
 };
-drawTree(ctx, 320, 470, 60, -Math.PI / 2, 12, 12);
+drawTree(ctx, clientwidth/2, clientHeight/4, clientHeight/25, -Math.PI / 2, 12, 8);
