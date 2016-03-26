@@ -41,24 +41,9 @@ html, body {
     }
 
 #page_word{
-    background: url(../pic/png/page2-bg.png) no-repeat;
-    background-size: auto 627px;
-    font-family: "new_font";
-}
-.ver_word{
-    width: 1em;
-    font-size: 4em;
-    letter-spacing: 4em;
-    margin-top: 0px;
-    margin-right: 1em;
-    margin-bottom: 0em;
-    margin-left: 70%;
-}
-.word{
-    font-size: 2em;
-    margin-right: 0.1em;
-    margin-top: 0.1em;
-    margin-left: 50%;
+    background: url(../pic/png/page2-bg.png) 100% 100% no-repeat;
+    width:100%;
+    height:100%;
 }
 #zero_long_word{
 
