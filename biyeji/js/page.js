@@ -2,7 +2,7 @@
  * @Author: lt
  * @Date:   2017-06-27T10:17:29+08:00
  * @Last modified by:   lt
- * @Last modified time: 2017-06-28T16:00:39+08:00
+ * @Last modified time: 2017-06-28T16:17:43+08:00
  */
 
 
@@ -181,13 +181,6 @@ var swiper26 = new Swiper('.the_section26', {
     freeMode: true,
 });
 var swiper27 = new Swiper('.the_section27', {
-    direction: 'vertical',
-    slidesPerView: 'auto',
-    mousewheelControl: true,
-    autoHeight: true,
-    freeMode: true,
-});
-var swiper28 = new Swiper('.the_section28', {
     direction: 'vertical',
     slidesPerView: 'auto',
     mousewheelControl: true,
